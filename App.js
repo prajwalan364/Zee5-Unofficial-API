@@ -33,11 +33,8 @@ const config = async () => {
 		await axios.get(token_url2, { headers });
 		return videoToken;
 	} catch (error) {
-		res.status(500).json({
-			status: 'fail',
-			message: 'Something Went Wrong... Try Again',
-			data: error.message,
-		});
+		console.log('Something Went Wrong... Try Again');
+		console.log(error.message);
 	}
 };
 
