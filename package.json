@@ -1,0 +1,19 @@
+{
+	"name": "zee5",
+	"version": "1.0.0",
+	"description": "zee5 Unofficial API",
+	"Author": "Prajwalan",
+	"main": "App.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start:dev": "nodemon App.js",
+		"start": "node App.js"
+	},
+	"author": "Prajwalan",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.21.0",
+		"express": "^4.17.1",
+		"nodemon": "2.0.4"
+	}
+}
